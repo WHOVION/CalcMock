@@ -3,17 +3,18 @@ const number = document.querySelectorAll('.number')
 let calculations = []
 const clear = document.querySelector('.clear')
 let calculate = document.querySelector('.answer')
+let buttons = document.querySelectorAll('button');
 
-clear.addEventListener('click', () => {
-    calculations = [];
-    output = 0
-})
-
-button.forEach((btn) => {
+buttons.forEach((btn) => {
     btn.addEventListener('click', () => {
-
+        console.log(btn.innerHTML)
     })
 })
+
+
+
+
+
 
 
 
