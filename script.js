@@ -1,3 +1,4 @@
+// Variables
 let currentInput = document.querySelector('.currentInput');
 let answerScreen = document.querySelector('.answerScreen');
 let buttons = document.querySelectorAll('button');
