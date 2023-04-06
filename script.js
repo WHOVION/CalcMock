@@ -1,24 +1,3 @@
-// const output = document.querySelector('.inputs')
-// const number = document.querySelectorAll('.number')
-// let calculations = []
-// const clear = document.querySelector('.clear')
-// let calculate = document.querySelector('.answer')
-// let buttons = document.querySelectorAll('button');
-
-// buttons.forEach((btn) => {
-//     btn.addEventListener('click', () => {
-//         console.log(btn.innerHTML)
-//     })
-// })
-
-
-
-
-
-
-
-
-
 let currentInput = document.querySelector('.currentInput');
 let answerScreen = document.querySelector('.answerScreen');
 let buttons = document.querySelectorAll('button');
@@ -42,7 +21,7 @@ clearbtn.addEventListener("click", () => {
     answerScreen.style.color = " rgba(150, 150, 150, 0.87)";
 })
 
-Get value of any button clicked and display to the screen
+// Get value of any button clicked and display to the screen
 
 buttons.forEach((btn) => {
 

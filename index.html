@@ -15,29 +15,29 @@
         </div>
 
         <div class="answer">
-            <h1 class="inputs"></h1>
+            <h1 class="inputs currentInput"></h1>
+            <h1 class="inputs answerScreen">0</h1>
         </div>
 
-        <div class="numbers">
-            <button type="button"  class="number clear button">AC</button>
-            <button type="button" class="number butt">#</button>
-            <button type="button" class="number button">%</button>
-            <button type="button" class="number button">/</button>
-            <button type="button" class="number button">7</button>
-            <button type="button" class="number button">8</button>
-            <button type="button" class="number button">9</button>
-            <button type="button" class="number button">x</button>
-            <button type="button" class="number button">4</button>
-            <button type="button" class="number button">5</button>
-            <button type="button" class="number button">6</button>
-            <button type="button" class="number button">-</button>
-            <button type="button" class="number button">1</button>
-            <button type="button" class="number button">2</button>
-            <button type="button" class="number button">3</button>
-            <button type="button" class="number button">+</button>
-            <button type="button" class="number button">0</button>
-            <button type="button" class="number button">.</button>
-            <button type="button" class="number button answer">=</button>
+        <div class="numbers footer">
+            <button type="button" value="+" class="number fun_btn">+</button>
+            <button type="button" value="-" class="number fun_btn">-</button>
+            <button type="button" value="*" class="number fun_btn">x</button>
+            <button type="button" value="/" class="number fun_btn">/</button>
+            <button type="button" value="" id="clear" class="number fun_btn">AC</button>
+            <!-- <button type="button" value="%" class="number fun_btn">%</button> -->
+            <button type="button" value="8" class="number num_btn">7</button>
+            <button type="button" value="8" class="number num_btn">8</button>
+            <button type="button" value="9" class="number num_btn">9</button>
+            <button type="button" value="" id="erase" class="number fun_btn">DE</button>
+            <button type="button" value="4" class="number num_btn">4</button>
+            <button type="button" value="6" class="number num_btn">5</button>
+            <button type="button" value="6" class="number num_btn">6</button>
+            <button type="button" value="1" class="number num_btn">1</button>
+            <button type="button" value="" id="evaluate" class="number fun_btn">=</button>
+            <button type="button" value="2" class="number num_btn">2</button>
+            <button type="button" value="3" class="number num_btn">3</button>
+            <button type="button" value="0" class="number num_btn">0</button>
         </div>
 
 
@@ -46,9 +46,10 @@
 </body>
 </html>
 
-<!-- add value to buttons, value is just the innerHtml stufff -->
+<!-- add value to buttons, value is just the innerHtml stuff -->
+<!-- classes r only 2 things, either num_btn or fun_btn -->
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -62,33 +63,49 @@
             <section id="Display-area">
                 <div class="currentInput"></div>
                 <div class="answerScreen">0</div>
-            </section>
-            <section class="keypad-btns">
-                <button type="button" class="fun_btn" id="clear" value="">
-                    C
-                </button>
-                <button type="button" class="fun_btn" id="erase" value="">
-                    &#11013;
-                </button>
-                <button type="button" class="fun_btn" value="/">/</button>
-                <button type="button" class="fun_btn" value="%">%</button>
-                <button type="button" class="num_btn" value="7">7</button>
-                <button type="button" class="num_btn" value="8">8</button>
-                <button type="button" class="num_btn" value="9">9</button>
-                <button type="button" class="fun_btn" value="*">x</button>
-                <button type="button" class="num_btn" value="4">4</button>
-                <button type="button" class="num_btn" value="5">5</button>
-                <button type="button" class="num_btn" value="6">6</button>
-                <button type="button" class="fun_btn" value="-">-</button>
-                <button type="button" class="num_btn" value="1">1</button>
-                <button type="button" class="num_btn" value="2">2</button>
-                <button type="button" class="num_btn" value="3">3</button>
-                <button type="button" class="fun_btn" value="+">+</button>
-                <button type="button" class="num_btn" value="00">00</button>
-                <button type="button" class="num_btn" value="0">0</button>
-                <button type="button" class="num_btn" value=".">.</button>
-                <button type="button" class="fun_btn" id="evaluate" value="">=</button>
-            </section>
-        </div>
-    </body>
-</html>
+            </section> -->
+
+            <!-- <div class="answer">
+                <h1 class="inputs">0</h1>
+            </div>
+    
+            <div class="numbers">
+                 -->
+                 <!-- <div class="numbers">
+                 <button class="number clear" id="first">AC</button>
+                <buttons class="number" id="first">#</buttons>
+                <buttons class="number" id="first">%</buttons>
+                <buttons class="number" id="first">/</buttons>
+                <buttons class="number" id="second">7</buttons>
+                <buttons class="number" id="second">8</buttons>
+                <buttons class="number" id="second">9</buttons>
+                <buttons class="number" id="second">x</buttons>
+                <buttons class="number" id="third">4</buttons>
+                <buttons class="number" id="third">5</buttons>
+                <buttons class="number" id="third">6</buttons>
+                <buttons class="number" id="third">-</buttons>
+                <buttons class="number" id="fourth">1</buttons>
+                <buttons class="number" id="fourth">2</buttons>
+                <buttons class="number" id="fourth">3</buttons>
+                <buttons class="number" id="fourth">+</buttons>
+                <buttons class="number" id="fifth">0</buttons>
+                <buttons class="number" id="fifth">.</buttons>
+                <buttons class="number" id="fifth">=</buttons> -->
+          
+
+                <!-- <div class="wrapper">
+                    <div class="main">top</div>
+                    <div class="footer">bottom</div>
+                </div>
+
+                .wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 100vh;
+                   }
+                  .main {
+                    flex: 1;
+                  } -->
+                  <!-- .footer {
+                   flex: 0;
+                  } -->
