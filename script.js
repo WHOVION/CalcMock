@@ -18,7 +18,7 @@ clearbtn.addEventListener("click", () => {
     answerScreen.innerHTML = 0;
     currentInput.className = 'currentInput'
     answerScreen.className = 'answerScreen';
-    answerScreen.style.color = 'green'
+    answerScreen.style.color = 'black'
 })
 
 // Get value of any button clicked and display to the screen
